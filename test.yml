@@ -3,3 +3,5 @@
   hosts: test
   tasks:
   - name: test
+    debug:
+      msg: "Hello FRED"
